@@ -7,14 +7,13 @@ terraform {
 //    secret_key = "${var.terraform_backend["secret_key"]}"
     skip_region_validation      = true
     skip_credentials_validation = true
-    skip_get_ec2_platforms      = true
-    skip_requesting_account_id  = true
     skip_metadata_api_check     = true
     bucket                      = "kafka-event-stream-mq-connect-state"
     key                         = "terraform.tfstate"
     region                      = "eu-geo"
-    access_key        = "<access-key>"
-    secret_key        = "<secret-key>"
+    endpoint                    = "s3.eu.cloud-object-storage.appdomain.cloud"
+    access_key                  = "<access-key>"
+    secret_key                  = "<secret-key>"
   }
 }
 
