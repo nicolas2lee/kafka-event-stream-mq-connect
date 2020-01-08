@@ -8,10 +8,12 @@ terraform {
     skip_region_validation      = true
     skip_credentials_validation = true
     skip_metadata_api_check     = true
+    skip_get_ec2_platforms      = true
+    skip_requesting_account_id  = true
     bucket                      = "kafka-event-stream-mq-connect-state"
     key                         = "terraform.tfstate"
     region                      = "eu-geo"
-    endpoint                    = "s3.eu.cloud-object-storage.appdomain.cloud"
+    endpoint                    = "https://kafka-event-stream-mq-connect-state.s3.eu-geo.cloud-object-storage.appdomain.cloud"
     access_key                  = "<access-key>"
     secret_key                  = "<secret-key>"
   }
