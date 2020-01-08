@@ -1,7 +1,10 @@
 terraform {
   backend "s3" {
-    bucket = "kafka-event-stream-mq-connect-state"
-    region = var.terraform_backend_region
+    bucket = "${var.terraform_backend["bucket"]}"
+    region = "${var.terraform_backend["region"]}"
+    key    = "${var.terraform_backend["key"]}"
+    access_key = "${var.terraform_backend["access_key"]}"
+    secret_key = "${var.terraform_backend["secret_key"]}"
   }
 }
 
@@ -10,17 +13,17 @@ data "ibm_resource_group" "group" {
 }
 
 resource "ibm_resource_instance" "event_stream_messagehub_resource_instance" {
-  name              = "kafka-mq-connect-demo-kafka"
-  location          = "us-south"
+  name              = "${var.eventstream["name"]}"
+  location          = "${var.eventstream["location"]}"
   resource_group_id = "${data.ibm_resource_group.group.id}"
   service           = "messagehub"
-  plan              = "lite"
+  plan              = "${var.eventstream["plan"]}"
 }
 
 resource "ibm_resource_instance" "mq_resource_instance" {
-  name              = var.mq["name"]
-  location          = var.mq["location"]
+  name              = "${var.mq["name"]}"
+  location          = "${var.mq["location"]}"
   resource_group_id = "${data.ibm_resource_group.group.id}"
   service           = "mqcloud"
-  plan              = var.mq["lite"]
+  plan              = "${var.mq["plan"]}"
 }
