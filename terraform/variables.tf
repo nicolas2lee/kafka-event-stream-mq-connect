@@ -7,7 +7,7 @@ variable "terraform_backend" {
   type = "map"
   default = {
     bucket            = "kafka-event-stream-mq-connect-state"
-    region            = "eu-geo"
+    region            = "us-east-1"
     key               = "terraform.tfstate"
     access_key        = "<access-key>"
     secret_key        = "<secret-key>"

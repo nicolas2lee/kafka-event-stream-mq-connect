@@ -1,10 +1,14 @@
 terraform {
   backend "s3" {
-    bucket = "${var.terraform_backend["bucket"]}"
-    region = "${var.terraform_backend["region"]}"
-    key    = "${var.terraform_backend["key"]}"
-    access_key = "${var.terraform_backend["access_key"]}"
-    secret_key = "${var.terraform_backend["secret_key"]}"
+//    bucket = "${var.terraform_backend["bucket"]}"
+//    region = "${var.terraform_backend["region"]}"
+//    key    = "${var.terraform_backend["key"]}"
+//    access_key = "${var.terraform_backend["access_key"]}"
+//    secret_key = "${var.terraform_backend["secret_key"]}"
+    bucket            = "kafka-event-stream-mq-connect-state"
+    key               = "terraform.tfstate"
+    access_key        = "<access-key>"
+    secret_key        = "<secret-key>"
   }
 }
 
