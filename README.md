@@ -6,4 +6,4 @@
 CLASSPATH=/home/kafka-event-stream-mq-connect/mq/kafka-connect-mq-source-1.2.0-SNAPSHOT-jar-with-dependencies.jar \
 /opt/kafka_2.11-0.10.1.0/bin/connect-standalone.sh \
 /home/kafka-event-stream-mq-connect/eventstream/connector-standalone.properties \
-/home/kafka-event-stream-mq-connect/mq/mq-source.json
+/home/kafka-event-stream-mq-connect/mq/mq-source.properties
