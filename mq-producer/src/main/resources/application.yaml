@@ -1,0 +1,7 @@
+ibm:
+  mq:
+    queueManager: QM1
+    channel: CLOUD.APP.SVRCONN
+    connName: qm1-0bbd.qm.us-south.mq.appdomain.cloud(32625)
+    user: kafkaconnect
+    password: <password>
