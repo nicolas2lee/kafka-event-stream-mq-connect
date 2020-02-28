@@ -5,3 +5,6 @@ ibm:
     connName: qm1-0bbd.qm.us-south.mq.appdomain.cloud(32625)
     user: kafkaconnect
     password: <password>
+#jms:
+#  mq:
+#    inbound-default-queue:
