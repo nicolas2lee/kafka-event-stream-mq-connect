@@ -1,0 +1,166 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java -Dvisualvm.id=27852719489276 -XX:TieredStopAtLevel=1 -noverify -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59246 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=127.0.0.1 -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59247:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/tools.jar:/Users/xinrui/tao/apps/github/kafka-event-stream-mq-connect/mq-producer/target/classes:/Users/xinrui/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/xinrui/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/xinrui/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/xinrui/.m2/repository/com/ibm/mq/mq-jms-spring-boot-starter/2.0.0/mq-jms-spring-boot-starter-2.0.0.jar:/Users/xinrui/.m2/repository/com/ibm/mq/com.ibm.mq.allclient/9.0.4.0/com.ibm.mq.allclient-9.0.4.0.jar:/Users/xinrui/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.jar:/Users/xinrui/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.57/bcpkix-jdk15on-1.57.jar:/Users/xinrui/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:/Users/xinrui/.m2/repository/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-jms/5.2.2.RELEASE/spring-jms-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-messaging/5.2.2.RELEASE/spring-messaging-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter/2.2.2.RELEASE/spring-boot-starter-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/xinrui/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/xinrui/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/xinrui/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar:/Users/xinrui/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/xinrui/.m2/repository/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/xinrui/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/xinrui/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.2.2.RELEASE/spring-boot-configuration-processor-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/Users/xinrui/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/xinrui/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.2.2.RELEASE/spring-boot-starter-tomcat-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar:/Users/xinrui/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.29/tomcat-embed-el-9.0.29.jar:/Users/xinrui/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.29/tomcat-embed-websocket-9.0.29.jar:/Users/xinrui/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.2.2.RELEASE/spring-boot-starter-validation-2.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.1/jakarta.validation-api-2.0.1.jar:/Users/xinrui/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar:/Users/xinrui/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/Users/xinrui/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/xinrui/.m2/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar:/Users/xinrui/.m2/repository/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar tao.MqspringApplication
+objc[5953]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java (0x1034434c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10350b4e0). One of the two will be used. Which one is undefined.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-02-28 14:57:35.081  INFO 5953 --- [           main] tao.MqspringApplication                  : Starting MqspringApplication on Xinruis-MacBook-Pro.local with PID 5953 (/Users/xinrui/tao/apps/github/kafka-event-stream-mq-connect/mq-producer/target/classes started by xinrui in /Users/xinrui/tao/apps/github/kafka-event-stream-mq-connect)
+2020-02-28 14:57:35.085  INFO 5953 --- [           main] tao.MqspringApplication                  : No active profile set, falling back to default profiles: default
+2020-02-28 14:57:36.408  INFO 5953 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-28 14:57:36.414  INFO 5953 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-28 14:57:36.414  INFO 5953 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-28 14:57:36.485  INFO 5953 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-28 14:57:36.485  INFO 5953 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1339 ms
+2020-02-28 14:57:36.830  INFO 5953 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-28 14:57:39.322  INFO 5953 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-28 14:57:39.327  INFO 5953 --- [           main] tao.MqspringApplication                  : Started MqspringApplication in 4.714 seconds (JVM running for 5.716)
+
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d31202020202020202020b2cc435e0076a515
+  JMSTimestamp:     1582898267746
+  JMSCorrelationID: null
+  JMSDestination:   queue:///DEV.QUEUE.1?messageBody=0
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: cli.ConnectStandalone
+    JMSXDeliveryCount: 1
+    JMSXUserID: kafkaconnect
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20200228
+    JMS_IBM_PutTime: 13575059
+    kafkaOffset: 0
+    kafkaPartition: 0
+    kafkaTopic: kc.test
+hello 1
+null
+
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d31202020202020202020b2cc435e0176a515
+  JMSTimestamp:     1582898268533
+  JMSCorrelationID: null
+  JMSDestination:   queue:///DEV.QUEUE.1?messageBody=0
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: cli.ConnectStandalone
+    JMSXDeliveryCount: 1
+    JMSXUserID: kafkaconnect
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20200228
+    JMS_IBM_PutTime: 13575059
+    kafkaOffset: 1
+    kafkaPartition: 0
+    kafkaTopic: kc.test
+hello 2
+null
+
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d31202020202020202020b2cc435e0276a515
+  JMSTimestamp:     1582898268534
+  JMSCorrelationID: null
+  JMSDestination:   queue:///DEV.QUEUE.1?messageBody=0
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: cli.ConnectStandalone
+    JMSXDeliveryCount: 1
+    JMSXUserID: kafkaconnect
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20200228
+    JMS_IBM_PutTime: 13575059
+    kafkaOffset: 2
+    kafkaPartition: 0
+    kafkaTopic: kc.test
+hello 3
+null
+
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d31202020202020202020b2cc435e0376a515
+  JMSTimestamp:     1582898268535
+  JMSCorrelationID: null
+  JMSDestination:   queue:///DEV.QUEUE.1?messageBody=0
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: cli.ConnectStandalone
+    JMSXDeliveryCount: 1
+    JMSXUserID: kafkaconnect
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20200228
+    JMS_IBM_PutTime: 13575059
+    kafkaOffset: 3
+    kafkaPartition: 0
+    kafkaTopic: kc.test
+hello 4
+null
+
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d31202020202020202020b2cc435e0476a515
+  JMSTimestamp:     1582898268536
+  JMSCorrelationID: null
+  JMSDestination:   queue:///DEV.QUEUE.1?messageBody=0
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: cli.ConnectStandalone
+    JMSXDeliveryCount: 1
+    JMSXUserID: kafkaconnect
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20200228
+    JMS_IBM_PutTime: 13575059
+    kafkaOffset: 4
+    kafkaPartition: 0
+    kafkaTopic: kc.test
+hello 5
+null
